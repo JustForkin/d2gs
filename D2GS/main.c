@@ -63,18 +63,16 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInst, LPSTR lpCmdLine, in
 			break;
 		}
 	}
-	sprintf(patch_d2, "%s\\Patch_D2.MPQ", curr_dir);
+	sprintf(patch_d2, "%s\\Patch_D2.mpq", curr_dir);
 	handle = CreateFile(patch_d2, FILE_GENERIC_READ, FILE_SHARE_READ, 0, OPEN_EXISTING, 0, 0);
 	if (handle == INVALID_HANDLE_VALUE)
 	{
+		D2GSEventLog("main", "%s not found", patch_d2);
 		return -1;
 	}
 	size = GetFileSize(handle, NULL);
-	if (size != 4153804)
-	{
-		CloseHandle(handle);
-		return -1;
-	}
+	D2GSEventLog("main", "size of %s = %d bytes", patch_d2, size);
+	
 	CloseHandle(handle);
 
 	/* reset cleanup routine list */
