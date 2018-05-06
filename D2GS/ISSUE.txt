@@ -1,3 +1,0 @@
-TODO:
-	lpChar->saved
-	dispose after Save

@@ -2,173 +2,163 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{9307f9bc-bfbf-4885-bb59-60ee126f5a4b}</UniqueIdentifier>
-      <Extensions>cpp;c;cxx;def;r;odl;idl;hpj;bat</Extensions>
-    </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{f6310cb2-c396-497c-b7bc-670a13c6b789}</UniqueIdentifier>
-      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
     <Filter Include="Resource Files">
-      <UniqueIdentifier>{98e5ac44-fe4e-46c6-99e8-03969af9d8a4}</UniqueIdentifier>
-      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;rc</Extensions>
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{1211845b-4b26-4449-ad99-b83948ee8f6f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="bnethash.c">
+    <ClCompile Include="src\bnethash.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="charlist.c">
+    <ClCompile Include="src\charlist.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="charstat.c">
+    <ClCompile Include="src\charstat.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="config.c">
+    <ClCompile Include="src\config.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="d2gamelist.c">
+    <ClCompile Include="src\d2gamelist.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="d2ge.c">
+    <ClCompile Include="src\d2ge.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="debug.c">
+    <ClCompile Include="src\debug.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="eventlog.c">
+    <ClCompile Include="src\eventlog.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="handle_s2s.c">
+    <ClCompile Include="src\handle_s2s.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="hexdump.c">
+    <ClCompile Include="src\hexdump.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="itemscan.c">
+    <ClCompile Include="src\itemscan.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="main.c">
+    <ClCompile Include="src\main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="net.c">
+    <ClCompile Include="src\net.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="nfd.c">
+    <ClCompile Include="src\nfd.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="timer.c">
+    <ClCompile Include="src\timer.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="trunk.c">
+    <ClCompile Include="src\trunk.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="utils.c">
+    <ClCompile Include="src\utils.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="vars.c">
+    <ClCompile Include="src\vars.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="versioncheck.c">
+    <ClCompile Include="src\versioncheck.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="bn_types.h">
+    <ClInclude Include="src\bnethash.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="bnethash.h">
+    <ClInclude Include="src\bn_types.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="charlist.h">
+    <ClInclude Include="src\charlist.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="charstat.h">
+    <ClInclude Include="src\charstat.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="d2gelib\colorcode.h">
+    <ClInclude Include="src\config.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="config.h">
+    <ClInclude Include="src\connection.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="connection.h">
+    <ClInclude Include="src\d2cs_d2gs_character.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="d2cs_d2gs_character.h">
+    <ClInclude Include="src\d2cs_d2gs_protocol.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="d2cs_d2gs_protocol.h">
+    <ClInclude Include="src\d2dbs_d2gs_protocol.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="d2dbs_d2gs_protocol.h">
+    <ClInclude Include="src\d2gamelist.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="d2game_protocol.h">
+    <ClInclude Include="src\d2game_protocol.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="d2gamelist.h">
+    <ClInclude Include="src\d2ge.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="d2ge.h">
+    <ClInclude Include="src\d2gs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="d2gs.h">
+    <ClInclude Include="src\d2gs_d2ge_protocol.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="d2gs_d2ge_protocol.h">
+    <ClInclude Include="src\debug.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="d2gelib\d2server.h">
+    <ClInclude Include="src\eventlog.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="debug.h">
+    <ClInclude Include="src\handle_d2game.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="eventlog.h">
+    <ClInclude Include="src\handle_s2s.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="handle_d2game.h">
+    <ClInclude Include="src\hexdump.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="handle_s2s.h">
+    <ClInclude Include="src\itemscan.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="hexdump.h">
+    <ClInclude Include="src\list.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="itemscan.h">
+    <ClInclude Include="src\net.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="list.h">
+    <ClInclude Include="src\nfd.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="net.h">
+    <ClInclude Include="src\telnetd.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="nfd.h">
+    <ClInclude Include="src\timer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="psapi.h">
+    <ClInclude Include="src\trunk.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="timer.h">
+    <ClInclude Include="src\utils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="trunk.h">
+    <ClInclude Include="src\vars.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="utils.h">
+    <ClInclude Include="src\versioncheck.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="vars.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="versioncheck.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ISSUE.txt" />
   </ItemGroup>
 </Project>

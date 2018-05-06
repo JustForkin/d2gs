@@ -5,3 +5,8 @@
 Debug
 Release
 obj
+/.vs
+/lib/d2server.exp
+/lib/d2server.lib
+*.aps
+/Patch/Patch.exe
